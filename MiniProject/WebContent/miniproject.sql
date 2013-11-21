@@ -1,0 +1,18 @@
+CREATE TABLE `member` (
+  `ID` varchar(20) DEFAULT NULL,
+  `PASSWD` varchar(20) DEFAULT NULL,
+  `NAME` varchar(20) DEFAULT NULL,
+  `JUMIN1` varchar(6) DEFAULT NULL,
+  `JUMIN2` varchar(7) DEFAULT NULL,
+  `PHONENUMBER` varchar(20) DEFAULT NULL,
+  `EMAIL` varchar(40) DEFAULT NULL,
+  `ADDRESS` varchar(30) DEFAULT NULL,
+  `REG_DATE` date DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+CREATE TABLE `ordermenu` (
+  `name` varchar(10) DEFAULT NULL,
+  `phonenumber` varchar(20) DEFAULT NULL,
+  `address` varchar(30) DEFAULT NULL,
+  `menuandcount` varchar(50) DEFAULT NULL,
+  `sumprice` varchar(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
